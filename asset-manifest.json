@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CV---Duong-Hoang-Hiep/static/css/main.2c8308c8.css",
+    "main.js": "/CV---Duong-Hoang-Hiep/static/js/main.888d9b83.js",
+    "static/js/787.6bc6f9d2.chunk.js": "/CV---Duong-Hoang-Hiep/static/js/787.6bc6f9d2.chunk.js",
+    "static/media/avatar.jpg": "/CV---Duong-Hoang-Hiep/static/media/avatar.5044758e2b58c54de4d8.jpg",
+    "index.html": "/CV---Duong-Hoang-Hiep/index.html",
+    "main.2c8308c8.css.map": "/CV---Duong-Hoang-Hiep/static/css/main.2c8308c8.css.map",
+    "main.888d9b83.js.map": "/CV---Duong-Hoang-Hiep/static/js/main.888d9b83.js.map",
+    "787.6bc6f9d2.chunk.js.map": "/CV---Duong-Hoang-Hiep/static/js/787.6bc6f9d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c8308c8.css",
+    "static/js/main.888d9b83.js"
+  ]
+}
