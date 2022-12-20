@@ -8,8 +8,10 @@ const cx = classNames.bind(styles);
 function DefaultLayout() {
   return (
     <div className={cx("wrapper")}>
-      <SideBar />
-      <MainContent />
+      <div className={cx("container")}>
+        <SideBar />
+        <MainContent />
+      </div>
     </div>
   );
 }

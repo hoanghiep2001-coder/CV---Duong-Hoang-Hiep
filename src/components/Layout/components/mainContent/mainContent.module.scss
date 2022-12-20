@@ -1,17 +1,50 @@
 .wrapper {
-  background-color: #ffffff;
+  background: #ffffff;
   min-height: 1000px;
   min-width: 700px;
   padding: 36px 20px;
-}
+  // background-size: contain;
+  // background-repeat: repeat;
+  // background: url("../../../../image/graph-dot-top-374458.svg");
+  .information {
+    display: flex;
+    justify-content: space-between;
 
-.information {
-  display: flex;
-  justify-content: space-between;
-}
+    .info__content {
+      flex: 1;
 
-.info__content {
-}
+      .info__content-name {
+        color: var(--color-priamry);
+        font-size: 3.8rem;
+        line-height: 1;
+        margin-bottom: 8px;
+      }
+      .info__content-position {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 3.6rem;
+      }
+      .info__content-desc {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+      }
+    }
 
-.info__content-name {
+    .info__mySelf {
+      display: flex;
+      justify-content: space-between;
+      .info__mySelf-wrapper {
+        display: flex;
+        .info__mySelf-content {
+          margin-left: 12px;
+        }
+      }
+    }
+
+    .info__avatar {
+      flex: 0;
+      margin-left: 12px;
+    }
+  }
 }
